@@ -4,4 +4,4 @@
 set -eu
 
 # build the docker image
-sudo docker -f $IMAGE_TAG/Dockerfile build -t $IMAGE_TAG .
+docker -f $IMAGE_TAG/Dockerfile build -t $IMAGE_TAG .
