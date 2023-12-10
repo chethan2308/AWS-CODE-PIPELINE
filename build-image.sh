@@ -4,4 +4,4 @@
 set -eu
 
 # build the docker image
-docker build -f AWS-CODE-PIPELINE/techmax/Dockerfile -t $IMAGE_TAG .
+docker build Dockerfile -t $IMAGE_TAG .
